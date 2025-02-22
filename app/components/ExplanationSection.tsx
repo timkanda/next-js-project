@@ -6,7 +6,7 @@ export default function ExplanationSection() {
       <AccordionItem value="server-actions">
         <AccordionTrigger>How Server Actions Work</AccordionTrigger>
         <AccordionContent>
-          Server Actions process the input on the server-side. When the form is submitted, the 'greetUser' function is
+          Server Actions process the input on the server-side. When the form is submitted, the &apos; greetUser function is
           called with the form data. It extracts the name and returns a greeting message, which is then displayed on the
           client without a full page reload.
         </AccordionContent>
@@ -22,7 +22,7 @@ export default function ExplanationSection() {
         <AccordionTrigger>Key Next.js 15.1 Features</AccordionTrigger>
         <AccordionContent>
           This application leverages Next.js 15.1 features such as Server Actions for form processing, the App Router
-          for simplified routing, and Server Components for improved performance. It also uses the new 'use client'
+          for simplified routing, and Server Components for improved performance. It also uses the new &apos; use client
           directive for client-side interactivity.
         </AccordionContent>
       </AccordionItem>
